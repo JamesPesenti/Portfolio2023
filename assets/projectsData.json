@@ -1,0 +1,68 @@
+[
+   {
+      "id": "0",
+      "title": "TeamCoin UI",
+      "image": "assets/TeamCoinFinal.gif",
+      "icons": [
+        "https://i.pinimg.com/originals/8a/02/1a/8a021aa097236b42dd71fb731e3d894d.gif",
+        "https://www.datocms-assets.com/45470/1631026680-logo-react-native.png"
+      ],
+      "description": "I built this website using React Native Web with Expo Router. It features • File-based navigation bar • A Screen to display the realtor's current homes for sale • Navigation to link the user to the IDX(Internet Data Exchange) on Century 21's website • A section that displays past customer reviews.",
+      "githubLink": "https://github.com/JamesPesenti/TeamCoin"
+   },
+   {
+      "id": "1",
+      "title": "Donut Shop App & Dashboard",
+      "image": "https://jamespesentiportfolio.netlify.app/images/appAndDashMock.png",
+      "icons": [
+        "https://i.pinimg.com/originals/8a/02/1a/8a021aa097236b42dd71fb731e3d894d.gif",
+        "https://www.datocms-assets.com/45470/1631026680-logo-react-native.png",
+        "https://pbs.twimg.com/profile_images/1114309924551417856/FKA4cm2x_400x400.png"
+      ],
+      "techStack": "RN",
+      "description": "A React Native UI design I created to reimagine the hotel Aston Waikiki Beach's website into a cross platform mobile app. I used most of the content and images from the current website and utilized both Bottom Tabs, Drawer navigation and other React Native libraries for a better user experience."
+   },
+   {
+      "id": "2",
+      "title": "Century 21 Website",
+      "image": "assets/c21Mockup.gif",
+      "icons": [
+        "https://www.logo.wine/a/logo/React_(web_framework)/React_(web_framework)-Logo.wine.svg"
+      ],
+      "techStack": "React",
+      "description": "I built this website using React Native Web with Expo Router. It features • File-based navigation bar • A Screen to display the realtor's current homes for sale • Navigation to link the user to the IDX(Internet Data Exchange) on Century 21's website • And a section that displays past customer reviews."
+   },
+   {
+      "id": "3",
+      "title": "Airbnb Clone App",
+      "image": "https://jamespesentiportfolio.netlify.app/images/mockrocket-capture%20(11).png",
+      "icons": [
+        "https://i.pinimg.com/originals/8a/02/1a/8a021aa097236b42dd71fb731e3d894d.gif",
+        "https://www.datocms-assets.com/45470/1631026680-logo-react-native.png"
+      ],
+      "techStack": "RN",
+      "description": "A React Native UI design I created to reimagine the hotel Aston Waikiki Beach's website into a cross platform mobile app. I used most of the content and images from the current website and utilized both Bottom Tabs, Drawer navigation and other React Native libraries for a better user experience."
+   },
+   {
+      "id": "4",
+      "title": "UberEats Clone App",
+      "image": "https://jamespesentiportfolio.netlify.app/images/UberEatsLast.png",
+      "icons": [
+        "https://i.pinimg.com/originals/8a/02/1a/8a021aa097236b42dd71fb731e3d894d.gif",
+        "https://www.datocms-assets.com/45470/1631026680-logo-react-native.png"
+      ],
+      "techStack": "RN",
+      "description": "A React Native UI design I created to reimagine the hotel Aston Waikiki Beach's website into a cross platform mobile app. I used most of the content and images from the current website and utilized both Bottom Tabs, Drawer navigation and other React Native libraries for a better user experience."
+   },
+   {
+      "id": "5",
+      "title": "Hotel UI",
+      "image": "https://jamespesentiportfolio.netlify.app/images/astonmock.png",
+      "icons": [
+        "https://i.pinimg.com/originals/8a/02/1a/8a021aa097236b42dd71fb731e3d894d.gif",
+        "https://www.datocms-assets.com/45470/1631026680-logo-react-native.png"
+      ],
+      "techStack": "RN",
+      "description": "A React Native UI design I created to reimagine the hotel Aston Waikiki Beach's website into a cross platform mobile app. I used most of the content and images from the current website and utilized both Bottom Tabs, Drawer navigation and other React Native libraries for a better user experience."
+   } 
+]
