@@ -1,4 +1,5 @@
-import { Pressable, ScrollView, Dimensions, StyleSheet, Text, View, Image, ImageBackground, FlatList } from 'react-native'
+import { Pressable, ScrollView, Dimensions, StyleSheet, Text, View, ImageBackground, FlatList } from 'react-native'
+import {Image} from "expo-image"
 import { useNavigation } from "@react-navigation/native"
 import projectsData from "../assets/projectsData.json"
 import { Link, Stack, useRouter } from "expo-router"
@@ -33,6 +34,13 @@ const projects = () => {
               <>
                 <View style={styles.container}>
                   <View style={styles.box}>
+                    {item.image.includes('<iframe') ? (
+                      <div
+                        style={{top: -20,width: 250,height: 220}}
+                        dangerouslySetInnerHTML={{ __html: item.image }}
+                      />
+                    ) : (
+                      <>
                         <Image
                           style={{
                             top: -20,
@@ -64,6 +72,8 @@ const projects = () => {
                           </Pressable>
                           <Text style={styles.seeCode}>See Code</Text>
                         <View style={styles.lineSeparator} />
+                      </>
+                    )}
                   </View>
                 </View>
               </>

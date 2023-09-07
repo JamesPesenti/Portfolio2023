@@ -16,7 +16,7 @@ const AboutMe = () => {
         </Pressable>
       </View>
          <View style={styles.aboutMeContainer}>
-            <Image style={styles.picture} source={{ uri: "https://github.com/JamesPesenti/C21App/assets/74566532/d4891503-eb4d-48ad-b154-06dad3090850"}} />
+            <Image style={styles.picture} source={require("./IMG_1619.jpg")} />
             <Text style={styles.nameTitle}>I'm James Pesenti,</Text>
             <Text style={styles.title}>a Software Developer building mobile apps </Text>
                <Text style={styles.chicago}>

@@ -33,7 +33,7 @@ const projects = () => {
               <>
                 <View style={styles.container}>
                   <View style={styles.box}>
-                        <Image
+                        {/* <Image
                           style={{
                             top: -20,
                             width: 250,
@@ -42,7 +42,7 @@ const projects = () => {
                             borderRadius: 10,
                           }}
                           source={{ uri: item.image }}
-                        />
+                        /> */}
                         <Text style={styles.title}>{item.title}</Text>
                         <View style={{ top: 0, gap: 10, flexDirection: 'row' }}>
                           {item.icons.map((icon, index) => (

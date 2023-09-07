@@ -33,6 +33,13 @@ const projects = () => {
               <>
                 <View style={styles.container}>
                   <View style={styles.box}>
+                    {item.image.includes('<iframe') ? (
+                      <div
+                        style={{top: -20,width: 250,height: 220}}
+                        dangerouslySetInnerHTML={{ __html: item.image }}
+                      />
+                    ) : (
+                      <>
                         <Image
                           style={{
                             top: -20,
@@ -41,7 +48,7 @@ const projects = () => {
                             resizeMode: 'contain',
                             borderRadius: 10,
                           }}
-                          source={{ uri: item.image }}
+                          source={ require( item.image) }
                         />
                         <Text style={styles.title}>{item.title}</Text>
                         <View style={{ top: 0, gap: 10, flexDirection: 'row' }}>
@@ -64,6 +71,8 @@ const projects = () => {
                           </Pressable>
                           <Text style={styles.seeCode}>See Code</Text>
                         <View style={styles.lineSeparator} />
+                      </>
+                    )}
                   </View>
                 </View>
               </>
