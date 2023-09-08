@@ -17,7 +17,7 @@ const LinkBar = () => {
   return (
       <View style={styles.container}>
           <SimpleLineIcons name="trash" size={44} color="black" />
-          <Link href="https://github.com/JamesPesenti/Portfolio2023/blob/main/JamesPesentiResume2023.pdf" asChild>
+          <Link href="https://github.com/JamesPesenti/portfolio/blob/main/src/Components/JamesPesentiResume2023.pdf" asChild>
             <Pressable style={styles.column}>
               <Entypo style={styles.icon} name="documents" size={30} color="white" /> 
                 <Text style={styles.linkText}>Resume</Text>

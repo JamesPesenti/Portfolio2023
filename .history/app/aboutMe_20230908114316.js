@@ -21,8 +21,8 @@ const AboutMe = () => {
             <Text style={styles.title}>a Software Developer building mobile apps </Text>
                <Text style={styles.chicago}>
                   and websites in Chicago, IL.  
-                  <FontAwesome style={{position: "relative", top: -35, left: 10}} name="map-pin" size={13} color="grey" />
-                  <Fontisto  style={{position: "relative", top: -20, right: 10}} name="world-o" size={20} color="#676E95" /> 
+                  <FontAwesome style={{position: "relative", top: -35, left: 10}} name="map-pin" size={13} color="white" />
+                  <Fontisto  style={{position: "relative", top: -20, right: 10}} name="world-o" size={20} color="white" /> 
                </Text>
          </View>
     </>

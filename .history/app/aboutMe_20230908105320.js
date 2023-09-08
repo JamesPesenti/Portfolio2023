@@ -11,20 +11,20 @@ const AboutMe = () => {
   return (
     <>
       <View>
-        <Pressable  style={{padding: 20}} onPress={() => router.back()}>
+        <Pressable  style={{padding: 20}} onPress={() => router.push("/")}>
           <Ionicons name="arrow-back" size={24} color="gray" />
         </Pressable>
       </View>
-         <View style={styles.aboutMeContainer}>
-            <Image style={styles.picture} source={{ uri: "https://github.com/JamesPesenti/C21App/assets/74566532/d4891503-eb4d-48ad-b154-06dad3090850"}} />
-            <Text style={styles.nameTitle}>I'm James Pesenti,</Text>
-            <Text style={styles.title}>a Software Developer building mobile apps </Text>
-               <Text style={styles.chicago}>
-                  and websites in Chicago, IL.  
-                  <FontAwesome style={{position: "relative", top: -35, left: 10}} name="map-pin" size={13} color="grey" />
-                  <Fontisto  style={{position: "relative", top: -20, right: 10}} name="world-o" size={20} color="#676E95" /> 
-               </Text>
-         </View>
+      <Image style={styles.picture} source={{ uri: "https://github.com/JamesPesenti/C21App/assets/74566532/d4891503-eb4d-48ad-b154-06dad3090850"}} />
+      <View style={styles.aboutMeContainer}>
+        <Text style={styles.nameTitle}>I'm James Pesenti,</Text>
+        <Text style={styles.title}>a Software Developer building mobile apps </Text>
+            <Text style={styles.chicago}>
+              and websites in Chicago, IL.  
+              <FontAwesome style={{position: "relative", top: -35, left: 10}} name="map-pin" size={13} color="white" />
+              <Fontisto  style={{position: "relative", top: -20, right: 10}} name="world-o" size={20} color="white" /> 
+            </Text>
+      </View>
     </>
   )
 }
@@ -32,24 +32,16 @@ const AboutMe = () => {
 export default AboutMe
 
 const styles = StyleSheet.create({
-   image: {
-      flex: 1,
-      bottom: 50,
-      width: "100%", 
-      height: 'auto', 
-      resizeMode: "contain",
-      borderRadius: 10,
-     },
      aboutMeContainer: {
-       position: 'absolute',
-       alignItems: 'flex-start',
+       alignItems: 'left',
        paddingHorizontal: 10,
-       gap: 20,
-       top: 100,
-       left: 250,
+       gap: 10,
+       top: 0,
+       left: 170,
        borderRadius: 50,
      },
      picture: {
+       top: 100,
        width: 170, 
        height: 170, 
        borderRadius: 100,

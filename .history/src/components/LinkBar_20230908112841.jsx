@@ -10,14 +10,11 @@ const LinkBar = () => {
 
   const router = useRouter()
 
-  const handleClick = () => {
-    console.log()
-  }
-
   return (
       <View style={styles.container}>
-          <SimpleLineIcons name="trash" size={44} color="black" />
-          <Link href="https://github.com/JamesPesenti/Portfolio2023/blob/main/JamesPesentiResume2023.pdf" asChild>
+             <SimpleLineIcons name="trash" size={44} color="black" />
+          {/* <MaterialCommunityIcons name="mailbox-outline" size={35} color="white" /> */}
+          <Link href={Pdf} asChild>
             <Pressable style={styles.column}>
               <Entypo style={styles.icon} name="documents" size={30} color="white" /> 
                 <Text style={styles.linkText}>Resume</Text>
@@ -30,7 +27,7 @@ const LinkBar = () => {
             </Pressable>
           </Link>
           <Link href={Pdf} asChild>
-            <Pressable onPress={handleClick} style={styles.column}>
+            <Pressable style={styles.column}>
               <MaterialCommunityIcons style={styles.icon} name="mailbox-open-up-outline" size={30} color="white" />
                 <Text style={styles.linkText}>Email</Text>
             </Pressable>

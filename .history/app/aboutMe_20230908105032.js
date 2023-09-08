@@ -11,7 +11,7 @@ const AboutMe = () => {
   return (
     <>
       <View>
-        <Pressable  style={{padding: 20}} onPress={() => router.back()}>
+        <Pressable  style={{padding: 20}} onPress={() => router.push("/")}>
           <Ionicons name="arrow-back" size={24} color="gray" />
         </Pressable>
       </View>
@@ -21,8 +21,8 @@ const AboutMe = () => {
             <Text style={styles.title}>a Software Developer building mobile apps </Text>
                <Text style={styles.chicago}>
                   and websites in Chicago, IL.  
-                  <FontAwesome style={{position: "relative", top: -35, left: 10}} name="map-pin" size={13} color="grey" />
-                  <Fontisto  style={{position: "relative", top: -20, right: 10}} name="world-o" size={20} color="#676E95" /> 
+                  <FontAwesome style={{position: "relative", top: -35, left: 10}} name="map-pin" size={13} color="white" />
+                  <Fontisto  style={{position: "relative", top: -20, right: 10}} name="world-o" size={20} color="white" /> 
                </Text>
          </View>
     </>
@@ -41,12 +41,11 @@ const styles = StyleSheet.create({
       borderRadius: 10,
      },
      aboutMeContainer: {
-       position: 'absolute',
        alignItems: 'flex-start',
        paddingHorizontal: 10,
-       gap: 20,
-       top: 100,
-       left: 250,
+       gap: 10,
+       top: 50,
+       left: 50,
        borderRadius: 50,
      },
      picture: {

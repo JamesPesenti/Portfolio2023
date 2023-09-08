@@ -4,20 +4,19 @@ import { Entypo } from '@expo/vector-icons';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { SimpleLineIcons } from '@expo/vector-icons';
 import { Link, useRouter } from "expo-router"
-import Pdf from "../components/JamesPesentiResume2023.pdf"
+// import pdf from "JamesPesentiResume2023.pdf/"
 
 const LinkBar = () => {
 
   const router = useRouter()
 
-  const handleClick = () => {
-    console.log()
-  }
+  const pdf = JamesPesentiResume2023.pdf
 
   return (
       <View style={styles.container}>
-          <SimpleLineIcons name="trash" size={44} color="black" />
-          <Link href="https://github.com/JamesPesenti/Portfolio2023/blob/main/JamesPesentiResume2023.pdf" asChild>
+             <SimpleLineIcons name="trash" size={44} color="black" />
+          {/* <MaterialCommunityIcons name="mailbox-outline" size={35} color="white" /> */}
+          <Link href="https://github.com/JamesPesenti/Portfolio2023/issues/new" asChild>
             <Pressable style={styles.column}>
               <Entypo style={styles.icon} name="documents" size={30} color="white" /> 
                 <Text style={styles.linkText}>Resume</Text>
@@ -29,14 +28,15 @@ const LinkBar = () => {
                 <Text style={styles.linkText}>GitHub</Text>
             </Pressable>
           </Link>
-          <Link href={Pdf} asChild>
-            <Pressable onPress={handleClick} style={styles.column}>
+          <Link href={pdf} asChild>
+            <Pressable style={styles.column}>
               <MaterialCommunityIcons style={styles.icon} name="mailbox-open-up-outline" size={30} color="white" />
                 <Text style={styles.linkText}>Email</Text>
             </Pressable>
           </Link>
       </View>
   )
+  
 }
 
 export default LinkBar
