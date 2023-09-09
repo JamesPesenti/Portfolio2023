@@ -12,6 +12,8 @@ import { SimpleLineIcons } from '@expo/vector-icons';
 import { Ionicons } from '@expo/vector-icons';
 import { Link } from "expo-router"
 import { NavigationContainer } from '@react-navigation/native';
+import "expo-router/entry";
+
 
 
 export default function App() {
@@ -37,7 +39,7 @@ export default function App() {
 
   return (
     <>
-    <NavigationContainer independent={true} >
+    <NavigationContainer>
      <StatusBar style="auto" />
       <ScrollView contentContainerStyle={{flex: 1}} showsVerticalScrollIndicator={false} >
         <View style={styles.backgroundContainer}>

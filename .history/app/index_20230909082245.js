@@ -37,7 +37,7 @@ export default function App() {
 
   return (
     <>
-    <NavigationContainer independent={true} >
+    <NavigationContainer>
      <StatusBar style="auto" />
       <ScrollView contentContainerStyle={{flex: 1}} showsVerticalScrollIndicator={false} >
         <View style={styles.backgroundContainer}>
