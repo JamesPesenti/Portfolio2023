@@ -46,7 +46,6 @@ const styles = StyleSheet.create({
        borderRadius: 50,
      },
      picture: {
-       bottom: 10,
        width: 150, 
        height: 150, 
        borderRadius: 100,
@@ -60,7 +59,7 @@ const styles = StyleSheet.create({
       fontSize: 28
      },
      title: {
-      marginBottom: 10,
+      marginTop: -20,
       color: "#676E95",
       lineHeight: 47,
       fontWeight: 'bold',

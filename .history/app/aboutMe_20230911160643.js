@@ -41,12 +41,11 @@ const styles = StyleSheet.create({
        alignItems: "center",
        justifyContent: 'center',
        paddingHorizontal: 250,
-       top: 20,
+       top: 0,
        gap: 0,
        borderRadius: 50,
      },
      picture: {
-       bottom: 10,
        width: 150, 
        height: 150, 
        borderRadius: 100,

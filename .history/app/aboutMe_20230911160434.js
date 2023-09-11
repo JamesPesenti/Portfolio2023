@@ -21,7 +21,7 @@ const AboutMe = () => {
             <Text style={styles.nameTitle}>I'm James Pesenti,</Text>
             <Text style={styles.title}>an emerging Software Developer with three years of experience in web and mobile app development, based in Chicago IL.  
                   <FontAwesome style={{position: "relative", top: -20, left: 8}} name="map-pin" size={13} color="grey" />
-                  <Fontisto  style={{position: "relative", top: -5, right: 10}} name="world-o" size={20} color="#676E95" /> 
+                  <Fontisto  style={{position: "relative", top: -9, right: 10}} name="world-o" size={20} color="#676E95" /> 
             </Text>
             <Text style={styles.content}>I'm currently developing projects using JavaScript libraries and frameworks like React and React Native, while learing more about native 
               iOS and Android development, specifically Kotlin and Swift programming. What I enjoy the most about mobile development is UI design📱, and seeing my designs instantly come to life on the screen is highly rewarding. 
@@ -46,7 +46,6 @@ const styles = StyleSheet.create({
        borderRadius: 50,
      },
      picture: {
-       bottom: 10,
        width: 150, 
        height: 150, 
        borderRadius: 100,
@@ -60,7 +59,6 @@ const styles = StyleSheet.create({
       fontSize: 28
      },
      title: {
-      marginBottom: 10,
       color: "#676E95",
       lineHeight: 47,
       fontWeight: 'bold',
